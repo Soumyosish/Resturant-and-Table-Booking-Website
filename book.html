@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FanTaurant | Book Table</title>
+</head>
+<body>
+    <section class="book">
+    <div class="card-content">
+        <h2>Table Reservation</h2>
+        <form>
+            <div class="form-row">
+                <input type="date" id="date" name="date" required>
+                <select name="hour">
+                    <option value="hour">Select time</option>
+                    <option value="10:00-12:00">10:00-12:00</option>
+                    <option value="12:00-14:00">12:00-14:00</option>
+                    <option value="14:00-16:00">14:00-16:00</option>
+                    <option value="16:00-18:00">16:00-18:00</option>
+                    <option value="18:00-20:00">18:00-20:00</option>
+                    <option value="20:00-22:00">20:00-22:00</option>
+                    <option value="22:00-00:00">22:00-00:00</option>
+                </select>
+                </div>
+                <div class="form-row"><br>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Phone Number" required>
+                </div>
+                <div class="form-row"><br>
+                    <input type="number" placeholder="How Many Persons ?" required>
+                    <button type="submit" formaction="thankyou.html">Book Table</button>
+                </div>
+        </form>
+    </div>
+    </section>
+</body>
+</html>
